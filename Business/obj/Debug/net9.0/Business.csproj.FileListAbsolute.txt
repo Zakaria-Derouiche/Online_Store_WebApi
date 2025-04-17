@@ -1,0 +1,6 @@
+C:\Users\THINK15-G4\source\repos\TestWebApiProject\Business\obj\Debug\net9.0\Business.csproj.AssemblyReference.cache
+C:\Users\THINK15-G4\source\repos\TestWebApiProject\Business\obj\Debug\net9.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\THINK15-G4\source\repos\TestWebApiProject\Business\obj\Debug\net9.0\Business.AssemblyInfoInputs.cache
+C:\Users\THINK15-G4\source\repos\TestWebApiProject\Business\obj\Debug\net9.0\Business.AssemblyInfo.cs
+C:\Users\THINK15-G4\source\repos\TestWebApiProject\Business\obj\Debug\net9.0\Business.csproj.CoreCompileInputs.cache
+C:\Users\THINK15-G4\source\repos\TestWebApiProject\Business\obj\Debug\net9.0\Business.sourcelink.json

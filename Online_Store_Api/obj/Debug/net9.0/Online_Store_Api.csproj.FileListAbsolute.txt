@@ -1,0 +1,7 @@
+C:\Users\THINK15-G4\source\repos\TestWebApiProject\Online_Store_Api\obj\Debug\net9.0\Online_Store_Api.csproj.AssemblyReference.cache
+C:\Users\THINK15-G4\source\repos\TestWebApiProject\Online_Store_Api\obj\Debug\net9.0\Online_Store_Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\THINK15-G4\source\repos\TestWebApiProject\Online_Store_Api\obj\Debug\net9.0\Online_Store_Api.AssemblyInfoInputs.cache
+C:\Users\THINK15-G4\source\repos\TestWebApiProject\Online_Store_Api\obj\Debug\net9.0\Online_Store_Api.AssemblyInfo.cs
+C:\Users\THINK15-G4\source\repos\TestWebApiProject\Online_Store_Api\obj\Debug\net9.0\Online_Store_Api.csproj.CoreCompileInputs.cache
+C:\Users\THINK15-G4\source\repos\TestWebApiProject\Online_Store_Api\obj\Debug\net9.0\Online_Store_Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\THINK15-G4\source\repos\TestWebApiProject\Online_Store_Api\obj\Debug\net9.0\Online_Store_Api.sourcelink.json
