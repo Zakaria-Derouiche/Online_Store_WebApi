@@ -18,7 +18,7 @@ namespace Data.Models
 
         public Product product { get; set; }
 
-        public int Quantity {  get; set; }
+        public byte Quantity {  get; set; }
 
     }
 }

@@ -16,5 +16,7 @@ namespace Data.Models
         public int StockQuantity { get; set; }
         public DateTime CreatedOn { get; set; }
 
+        public List<OrderItems> ProductOrderItems { get; set; }
+
     }
 }

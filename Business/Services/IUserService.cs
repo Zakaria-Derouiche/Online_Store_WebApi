@@ -1,13 +1,12 @@
 ﻿using Data.Models;
+using Microsoft.AspNetCore.Identity;
 
 namespace Business.Services
 {
     public interface IUserService
     {
-        IEnumerable<User> GetAllUsers();
-        User GetUserByID(int id);
-        void CreateUser(User user);
-        void UpdateUser(User user);
-        void DeleteUser(int id);
+
+        Task<IdentityResult> RegisterUserAsync(RegisterModel model);
+        
     }
 }

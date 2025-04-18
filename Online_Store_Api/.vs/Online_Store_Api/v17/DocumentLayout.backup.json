@@ -1,15 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\THINK15-G4\\source\\repos\\TestWebApiProject\\Online_Store_Api\\",
+  "WorkspaceRootPath": "C:\\Users\\THINK15-G4\\source\\repos\\Online_Store_WebApiProject\\Online_Store_Api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3B09BA15-5739-45A9-A2A7-C8965376BE57}|..\\Data\\Data.csproj|c:\\users\\think15-g4\\source\\repos\\testwebapiproject\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57DAC73F-3197-454A-880B-B73A922E31D2}|..\\Business\\Business.csproj|c:\\users\\think15-g4\\source\\repos\\online_store_webapiproject\\business\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57DAC73F-3197-454A-880B-B73A922E31D2}|..\\Business\\Business.csproj|c:\\users\\think15-g4\\source\\repos\\testwebapiproject\\business\\services\\ireviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57DAC73F-3197-454A-880B-B73A922E31D2}|..\\Business\\Business.csproj|c:\\users\\think15-g4\\source\\repos\\testwebapiproject\\business\\services\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57DAC73F-3197-454A-880B-B73A922E31D2}|..\\Business\\Business.csproj|c:\\users\\think15-g4\\source\\repos\\online_store_webapiproject\\business\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,7 +16,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,41 +28,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\THINK15-G4\\source\\repos\\TestWebApiProject\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "..\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\THINK15-G4\\source\\repos\\TestWebApiProject\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "..\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T16:57:23.285Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IReviewService.cs",
-              "DocumentMoniker": "C:\\Users\\THINK15-G4\\source\\repos\\TestWebApiProject\\Business\\Services\\IReviewService.cs",
-              "RelativeDocumentMoniker": "..\\Business\\Services\\IReviewService.cs",
-              "ToolTip": "C:\\Users\\THINK15-G4\\source\\repos\\TestWebApiProject\\Business\\Services\\IReviewService.cs",
-              "RelativeToolTip": "..\\Business\\Services\\IReviewService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\THINK15-G4\\source\\repos\\Online_Store_WebApiProject\\Business\\Services\\IUserService.cs",
+              "RelativeDocumentMoniker": "..\\Business\\Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\THINK15-G4\\source\\repos\\Online_Store_WebApiProject\\Business\\Services\\IUserService.cs",
+              "RelativeToolTip": "..\\Business\\Services\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T16:51:24.868Z",
+              "WhenOpened": "2025-04-18T10:09:23.807Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ReviewService.cs",
-              "DocumentMoniker": "C:\\Users\\THINK15-G4\\source\\repos\\TestWebApiProject\\Business\\Services\\ReviewService.cs",
-              "RelativeDocumentMoniker": "..\\Business\\Services\\ReviewService.cs",
-              "ToolTip": "C:\\Users\\THINK15-G4\\source\\repos\\TestWebApiProject\\Business\\Services\\ReviewService.cs",
-              "RelativeToolTip": "..\\Business\\Services\\ReviewService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAbAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\THINK15-G4\\source\\repos\\Online_Store_WebApiProject\\Business\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "..\\Business\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\THINK15-G4\\source\\repos\\Online_Store_WebApiProject\\Business\\Services\\UserService.cs",
+              "RelativeToolTip": "..\\Business\\Services\\UserService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAUwB8AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T16:51:05.776Z",
+              "WhenOpened": "2025-04-18T10:02:15.824Z",
               "EditorCaption": ""
             }
           ]

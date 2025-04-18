@@ -4891,11 +4891,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\THINK15-G4\\source\\repos\\TestWebApiProject\\Data\\Data.csproj",
+      "projectUniqueName": "C:\\Users\\THINK15-G4\\source\\repos\\Online_Store_WebApiProject\\Data\\Data.csproj",
       "projectName": "Data",
-      "projectPath": "C:\\Users\\THINK15-G4\\source\\repos\\TestWebApiProject\\Data\\Data.csproj",
+      "projectPath": "C:\\Users\\THINK15-G4\\source\\repos\\Online_Store_WebApiProject\\Data\\Data.csproj",
       "packagesPath": "C:\\Users\\THINK15-G4\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\THINK15-G4\\source\\repos\\TestWebApiProject\\Data\\obj\\",
+      "outputPath": "C:\\Users\\THINK15-G4\\source\\repos\\Online_Store_WebApiProject\\Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4972,5 +4972,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.201/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
+    }
+  ]
 }

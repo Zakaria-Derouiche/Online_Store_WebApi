@@ -1,34 +1,47 @@
 ﻿using Data.Models;
 using Data.Repositories;
+using Microsoft.AspNetCore.Identity;
 using System.Collections.Generic;
+using Business;
+using Online_Store_Api;
+
+
 
 namespace Business.Services
 {
     public class UserService : IUserService
     {
-        private readonly IUserRepository _userRepository;
+        private readonly UserManager<User> _userManager;
 
-        public UserService(IUserRepository userRepository)
+        public UserService(UserManager<User> userManager)
         {
-            _userRepository = userRepository;
+            _userManager = userManager;
         }
 
-        public IEnumerable<User> GetAllUsers() => _userRepository.GetAll();
-
-        public User GetUserByID(int id) => _userRepository.GetById(id);
-
-        public void CreateUser(User product)
+        public async Task<AuthModel> RegisterUserAsync(RegisterModel model)
         {
+            if (await _userManager.FindByEmailAsync(model.Email) is not null)
+            {
+                return new AuthModel { Message = "Email Already Exist" };
+            }
+            if (await _userManager.FindByEmailAsync(model.UserName) is not null)
+            {
+                return new AuthModel { Message = "Email Already Exist" };
+            }
+            var user = new User { 
+                UserName = model.UserName,
+                Email = model.Email,
+                FirstName = model.FirstName,
+                LastName = model.LastName,
+            };
+            var result = await _userManager.CreateAsync(user);
 
-            _userRepository.Add(product);
+            if (!result.Succeeded)
+            {
+                var errors = string.Join(",", result.Errors.Select(e => e.Description));
+                return new AuthModel { Message = errors };
+            }
+            await _userManager.AddToRoleAsync(user, "User");
         }
-
-        public void UpdateUser(User product)
-        {
-
-            _userRepository.Update(product);
-        }
-
-        public void DeleteUser(int id) => _userRepository.Delete(id);
     }
 }
